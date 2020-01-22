@@ -1,0 +1,43 @@
+
+public class Jugador implements ObserverEntrenadorPista{
+	private final static String MA_DRETA = "DRETA"; 
+	private final static String MA_ESQ = "ESQUERRA";
+	private static final int NUM_JUG_PISTA = 7;
+	
+	private int dorsal;
+	private String nom;
+	private String cognom;
+	private int numLlicencia;
+	private String maBona = MA_DRETA;
+	private double pes = 75.0;
+	private double alcada = 1.80;
+	private SubjectEntrenadorPista subjectEntrenadorPista;
+	
+
+
+	public Jugador(int dorsal, String nom, String cognom, int numLlicencia, SubjectEntrenadorPista subject) {
+		this.dorsal = dorsal;
+		this.nom = nom;
+		this.cognom = cognom;
+		this.numLlicencia = numLlicencia;
+		
+		this.subjectEntrenadorPista = subject;
+		if(dorsal<=NUM_JUG_PISTA) {
+			subjectEntrenadorPista.registerObserverPista(this);
+		}
+	}
+	public String toString() {
+		return "*Jugador* ["+dorsal+"]"+" - " +nom+" "+cognom+" ---"+numLlicencia+"---";
+
+
+	}
+	@Override
+	public void updateEntrenadorPista(String missatge) {
+		System.out.println("El jugador "+toString()+" ha rebut un missatge de l'entrenador: "+missatge);
+	}
+
+
+
+
+}
+

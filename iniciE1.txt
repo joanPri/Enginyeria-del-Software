@@ -1,0 +1,13 @@
+0,Jana,Vilà,325
+1,Pau,Perez,123
+2,Pere,Padel,456
+3,Maria,Be,789
+4,Joan,Pi,987
+5,Francesc,Masia,654
+6,Sebastià,Abel,321
+7,Albert,Pujol,021
+8,Alfred,Peu,547
+9,Daniel,Alemany,254
+10,David,Anglada,985
+11,Jordi,Pou,248
+12,Gloria,Prat,027

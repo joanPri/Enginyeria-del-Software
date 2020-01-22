@@ -1,0 +1,13 @@
+0,Ignaci,Prim,444
+1,Jonas,Pruna,578
+2,Jonathan,Ras,698
+3,Kilian,Renyer,658
+4,Lidia,Ribot,458
+5,Llorenç,Riudor,652
+6,Marcel,Rovira,254
+7,Miquel,Samper,124
+8,Merce,Sanxis,643
+9,Montserrat,Tresserras,852
+10,Nuria,Gonfaus,415
+11,Oliver,Riera,250
+12,Lluc,Puigjorner,206
